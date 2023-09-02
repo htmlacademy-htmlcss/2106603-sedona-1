@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Марина](https://up.htmlacademy.ru/htmlcss-individual/1/user/2106603).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Ничипорчук](https://htmlacademy.ru/profile/id612797).
 
 ---
 
