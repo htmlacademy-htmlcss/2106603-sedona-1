@@ -15,7 +15,7 @@
           <li class="navigation-item">
             <a href="#">О Седоне</a>
           </li>
-          <li class="navigation-item">
+          <li class="navigation-item active">
             <a href="catalog.html">Гостиницы</a>
           </li>
         </ul>
@@ -106,7 +106,26 @@
           <button class="button" type="submit">Сбросить</button>
         </form>
       </section>
-
+      <section class="main-catalog">
+        <h2 class="visually-hidden">Каталог гостиниц</h2>
+        <div class="selection-parameters">
+          <b class="number-search">Найдено гостиниц: 38</b>
+          <select class="catalog-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвое</option>
+            <option value="expensive">Сначала дорогое</option>
+            <option value="popular">Сначала популярное</option>
+          </select>
+          <a class="button active" href="#">
+            <span class="visually-hidden">Показать карточки</span>
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden">Крупный вид</span>
+          </a>
+          <a class="button" href="#">
+            <span class="visually-hidden">Показать списком</span>
+          </a>
+        </div>
+      </section>
     </main>
     <footer class="page-footer">
       <ul class="social-list">
