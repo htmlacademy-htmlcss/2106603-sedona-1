@@ -138,5 +138,36 @@
         <img src="#" alt="Логотип .html academy.">
       </a>
     </footer>
+    <section class="modal-search-form">
+      <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+      <button class="modal-close-button" type="button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+      <form class="hotel-form" action="#" method="post">
+        <p class="hotel-form-date">
+          <label for="hotel-date">Дата заезда:</label>
+          <input type="text" id="hotel-date" value="27 апреля 2020">
+          <span class="comment comment-error">Мы не можем отправить вас в прошлое.</span>
+          <button class="calendar-button" type="button">Календарь</button>
+        </p>
+        <p class="hotel-form-date">
+          <label for="hotel-date">Дата выезда:</label>
+          <input type="text" id="hotel-date" value="1 сентября 2023">
+          <span class="comment">На эти даты есть свободные номера. Пока есть.</span>
+          <button class="calendar-button" type="button">Календарь</button>
+        </p>
+        <p class="hotel-form-visitors">
+          <label for="hotel-old">Взрослые:</label>
+          <input type="text" id="hotel-old">
+        </p>
+        <p class="hotel-form-visitors">
+          <label for="hotel-children">Дети:
+            <button class="tooltip-toggle" type="button">i</button>
+          </label>
+          <input type="text" id="hotel-children">
+        </p>
+        <button class="button" type="submit">Найти</button>
+      </form>
+    </section>
   </body>
 </html>
