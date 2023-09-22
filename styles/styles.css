@@ -22,6 +22,16 @@ body {
   color: #333333;
 }
 
+.button {
+  background-color: #756157;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 /*Header*/
 
 .page-header {
@@ -38,8 +48,10 @@ body {
   text-align: center;
 }
 
-.button {
-  background-color: #756157;
+.navigation-button {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
   color: #ffffff;
 }
 
@@ -59,7 +71,7 @@ body {
 .hero-description {
   text-align: center;
 }
-.hero-slogan {
+.hero-slogan, .slogan {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -100,13 +112,39 @@ body {
 /*services*/
 .services {
   background-color: #ffffff;
+  text-align: center;
 }
 
-.services-list {
- /* background-color: rgba(130, 179, 211, 1);*/
+.services-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
 }
 
 .services-item:nth-child(odd){
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+/* Поиск гостиницы и подписка на новости */
+.search-hotel {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.newsletter {
+  color: #ffffff;
+  background-image: url(../images/newsletter.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+}
+
+.newsletter-form input {
+  background-color: #F2F2F2;
+}
+
+.newsletter-button {
+  background-color: #82B3D3;
 }
 
