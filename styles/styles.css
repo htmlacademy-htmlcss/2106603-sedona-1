@@ -38,4 +38,25 @@ body {
   text-align: center;
 }
 
+/*main-index*/
 
+.hero-main {
+  background: #ffffff;
+}
+
+.hero-img {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 485px;
+}
+
+.hero-description {
+  text-align: center;
+}
+.hero-slogan {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
