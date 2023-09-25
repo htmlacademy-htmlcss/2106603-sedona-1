@@ -246,6 +246,7 @@ body {
   background-color: #ffffff;
 }
 
+/*Сортировка*/
 .number-search {
   font-size: 30px;
   font-weight: 700;
@@ -261,4 +262,25 @@ body {
 .active {
   color: #ffffff;
   background-color: #000000;
+}
+
+/*Карточки товаров*/
+
+.product-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.rating {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
 }
