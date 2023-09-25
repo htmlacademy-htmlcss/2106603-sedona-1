@@ -284,3 +284,22 @@ body {
   text-transform: uppercase;
   background-color: #F2F2F2;
 }
+
+/*Пагинация*/
+
+.pagination-link {
+  background-color: #82B3D3;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.main-inner .newsletter {
+  background-color: #ffffff;
+  background-image: none;
+  color: #000000;
+}
