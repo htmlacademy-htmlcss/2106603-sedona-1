@@ -148,3 +148,53 @@ body {
   background-color: #82B3D3;
 }
 
+/*footer*/
+
+.page-footer {
+  background-color: #ffffff;
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Окно для поиска гостиницы по датам */
+
+.modal-search-form {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+
+.modal-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.comment {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.comment-error {
+  color: #FF5757;
+}
+
+.modal-close-button {
+  background-color: #F2F2F2;
+}
+
+.hotel-form input {
+  background-color: #F2F2F2;
+}
+
+.hotel-form .button {
+  background-color: #83B3D3;
+}
