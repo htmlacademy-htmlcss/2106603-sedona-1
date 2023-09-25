@@ -241,3 +241,24 @@ body {
 .catalog-filter-item {
   line-height: 23px;
 }
+
+.main-catalog {
+  background-color: #ffffff;
+}
+
+.number-search {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.button-composition {
+  text-decoration: none;
+  color: #000000;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #000000;
+}
