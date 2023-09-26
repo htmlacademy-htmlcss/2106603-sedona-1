@@ -29,6 +29,10 @@ body {
   color: #000000;
 }
 
+.navigation-list {
+  list-style: none;
+}
+
 .navigation-link {
   font-size: 20px;
   font-weight: 700;
@@ -101,6 +105,10 @@ body {
   color: #ffffff;
 }
 
+.advantages-list {
+  list-style: none;
+}
+
 .advantages-item {
   text-align: center;
 }
@@ -108,6 +116,8 @@ body {
 .advantages-description-list {
   color: #000000;
   background-color: #ffffff;
+  list-style: none;
+
 }
 
 .advantages-description-item {
@@ -129,6 +139,10 @@ body {
 .services {
   background-color: #ffffff;
   text-align: center;
+}
+
+.services-list {
+  list-style: none;
 }
 
 .services-title {
@@ -168,6 +182,10 @@ body {
 
 .page-footer {
   background-color: #ffffff;
+}
+
+.social-list {
+  list-style: none;
 }
 
 .footer-phone {
@@ -241,6 +259,10 @@ body {
   line-height: 24px;
 }
 
+.catalog-filter-list {
+  list-style: none;
+}
+
 .catalog-filter-item {
   line-height: 23px;
 }
@@ -269,6 +291,10 @@ body {
 
 /*Карточки товаров*/
 
+.product-list {
+  list-style: none;
+}
+
 .product-card-title {
   font-size: 24px;
   font-weight: 700;
@@ -289,6 +315,10 @@ body {
 }
 
 /*Пагинация*/
+
+.pagination {
+  list-style: none;
+}
 
 .pagination-link {
   background-color: #82B3D3;
