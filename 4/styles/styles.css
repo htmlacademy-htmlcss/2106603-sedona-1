@@ -1,0 +1,337 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background: #F2F2F2;
+  color: #333333;
+}
+
+/*Header*/
+
+.page-header {
+  background: #ffffff;
+  color: #000000;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-link {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.button {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(242, 242, 242, 0);
+  font-family: "PT Sans", sans-serif;
+  border: 0;
+}
+
+/*коричневые кнопки*/
+.button-primary {
+  background-color: #756157;
+}
+
+/*голубые кнопки*/
+.button-secondary {
+  background-color: #82B3D3;
+}
+/*зеленые кнопки*/
+.button-favourit {
+  background-color: #7DB54F;
+}
+
+/*кнопки с меньшим шрифтом*/
+.button-smaller-font {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/*main-index*/
+
+.hero-main {
+  background: #ffffff;
+  text-align: center;
+}
+
+.hero-img {
+  background-image: url("../images/index-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 485px;
+}
+
+.hero-description {
+  text-align: center;
+}
+.hero-slogan, .slogan {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+/*advantages*/
+
+.advantages {
+  background-color: #82B3D3;
+  color: #ffffff;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantages-item {
+  text-align: center;
+}
+
+.advantages-description-list {
+  color: #000000;
+  background-color: #ffffff;
+  list-style: none;
+}
+
+.advantages-description-item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-description-item:nth-child(even) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+/*services*/
+.services {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.services-list {
+  list-style: none;
+}
+
+.services-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.services-item:nth-child(odd){
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+/* Поиск гостиницы и подписка на новости */
+.search-hotel {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.newsletter {
+  color: #ffffff;
+  background-image: url(../images/newsletter.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  text-align: center;
+  height: 415px;
+}
+
+.newsletter-form input {
+  background-color: #F2F2F2;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/*footer*/
+
+.page-footer {
+  background-color: #ffffff;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-decoration: none;
+}
+
+/* Окно для поиска гостиницы по датам */
+
+.modal-search-form {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  background-color: #ffffff;
+}
+
+.modal-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.comment {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.comment-error {
+  color: #FF5757;
+}
+
+.modal-close-button {
+  background-color: #F2F2F2;
+}
+
+.hotel-form input {
+  background-color: #F2F2F2;
+}
+
+.hotel-form .button {
+  line-height: 24px;
+}
+
+/*catalog*/
+
+.main-inner-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.main-inner-filter {
+  background-image: url(../images/inner-filter.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.catalog-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.catalog-filter-list {
+  list-style: none;
+}
+
+.catalog-filter-item {
+  line-height: 23px;
+}
+
+.main-catalog {
+  background-color: #ffffff;
+}
+
+/*Сортировка*/
+.number-search {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.button-composition {
+  text-decoration: none;
+  color: #000000;
+}
+
+.active {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/*Карточки товаров*/
+
+.product-list {
+  list-style: none;
+}
+
+.product-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000000;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.rating {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  background-color: #F2F2F2;
+}
+
+/*Пагинация*/
+
+.pagination {
+  list-style: none;
+}
+
+.pagination-link {
+  background-color: #82B3D3;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pagination-current {
+  background-color: #F2F2F2;
+  color: #000000;
+}
+
+.main-inner .newsletter {
+  background-color: #ffffff;
+  background-image: none;
+  color: #000000;
+}
