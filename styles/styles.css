@@ -20,6 +20,12 @@ body {
   line-height: 21px;
   background: #F2F2F2;
   color: #333333;
+  padding: 0 40px;
+}
+
+.container {
+  margin: auto;
+  width: 1200px;
 }
 
 /*Header*/
@@ -286,7 +292,7 @@ body {
   color: #000000;
 }
 
-.active {
+.button-composition.active {
   color: #ffffff;
   background-color: #000000;
 }
