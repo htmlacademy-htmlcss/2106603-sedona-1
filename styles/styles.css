@@ -124,14 +124,28 @@ body {
   height: 485px;
 }
 
+.hero-img img {
+  display: block;
+  margin: 0 auto;
+}
+
 .hero-description {
   text-align: center;
+  width: 1200px;
+  padding: 69px 0;
 }
 .hero-slogan, .slogan {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+}
+
+.hero-slogan {
+  display: block;
+  margin: 0 auto;
+  width: 620px;
+  margin-bottom: 25px;
 }
 
 /*advantages*/
