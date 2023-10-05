@@ -157,20 +157,30 @@ body {
 
 .advantages-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .advantages-item {
   text-align: center;
+  display: flex;
 }
 
 .advantages-description-list {
+  display: flex;
   color: #000000;
   background-color: #ffffff;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-description-item {
   background-color: rgba(131, 179, 211, 0.12);
+  width: 230px;
+  padding: 103px 85px;
 }
 
 .advantages-description-item:nth-child(even) {
