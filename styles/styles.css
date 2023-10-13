@@ -416,14 +416,37 @@ fieldset {
 
 .main-catalog {
   background-color: #ffffff;
+  padding: 50px 70px 60px;
 }
 
 /*Сортировка*/
+
+.selection-parameters {
+  display: flex;
+  width: 1060px;
+  height: 49px;
+  margin-bottom: 40px;
+  justify-content: flex-end;
+}
+
 .number-search {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   text-transform: uppercase;
+  margin-left: 0;
+  flex-grow: 1;
+}
+
+.catalog-control {
+  width: 292px;
+}
+
+.view-composition {
+  width: 160px;
+  margin-left: 70px;
+  display: flex;
+
 }
 
 .button-composition {
