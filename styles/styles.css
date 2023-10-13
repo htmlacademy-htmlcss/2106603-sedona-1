@@ -298,6 +298,9 @@ body {
   font-weight: 700;
   line-height: 24px;
   background-color: #ffffff;
+  width: 577px;
+  height: 448px;
+  padding: 64px 70px;
 }
 
 .modal-title {
@@ -327,6 +330,19 @@ body {
 
 .hotel-form .button {
   line-height: 24px;
+  width: 100%;
+  padding: 18px 77px;
+
+}
+
+.hotel-form-visitors {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.hotel-form-visitors p {
+  margin: 0;
 }
 
 /*catalog*/
