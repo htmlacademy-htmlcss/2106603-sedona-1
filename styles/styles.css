@@ -128,7 +128,9 @@ body {
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  height: 485px;
+  height: 352px;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .hero-img img {
