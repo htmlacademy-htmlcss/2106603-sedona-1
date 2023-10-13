@@ -261,6 +261,13 @@ body {
   line-height: 24px;
 }
 
+.newsletter h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px; 
+  text-transform: uppercase;
+}
+
 /*footer*/
 
 .page-footer {
