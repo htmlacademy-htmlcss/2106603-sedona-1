@@ -47,6 +47,7 @@ body {
 .page-header {
   display: flex;
   width: 1060px;
+  height: 64px;
   padding: 0 70px;
   margin: 0 auto;
   background: #ffffff;
@@ -68,6 +69,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 .navigation-link {
@@ -77,6 +79,8 @@ body {
   text-decoration: none;
   color: inherit;
   text-align: center;
+  padding: 20px 16px;
+  display: block;
 }
 
 .button {
@@ -109,6 +113,7 @@ body {
 .button-smaller-font {
   font-size: 16px;
   line-height: 20px;
+  display: block;
 }
 
 /*main-index*/
@@ -407,11 +412,6 @@ fieldset {
 
 .catalog-filter-item {
   line-height: 23px;
-}
-
-/* кнопки с размером шрифта 16px*/
-.button-smaller-font {
-  display: block;
 }
 
 .main-catalog {
