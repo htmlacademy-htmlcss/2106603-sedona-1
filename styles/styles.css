@@ -265,10 +265,16 @@ body {
 
 .page-footer {
   background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px  70px 30px 70px;
 }
 
 .social-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .footer-phone {
