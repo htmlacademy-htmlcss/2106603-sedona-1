@@ -417,13 +417,13 @@ fieldset {
 .main-catalog {
   background-color: #ffffff;
   padding: 50px 70px 60px;
+  width: 1060px;
 }
 
 /*Сортировка*/
 
 .selection-parameters {
   display: flex;
-  width: 1060px;
   height: 49px;
   margin-bottom: 40px;
   justify-content: flex-end;
@@ -463,6 +463,17 @@ fieldset {
 
 .product-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.product-card {
+  width: 300px;
+  padding: 20px;
 }
 
 .product-card-title {
