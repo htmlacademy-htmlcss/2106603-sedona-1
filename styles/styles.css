@@ -77,10 +77,11 @@ body {
 }
 
 .navigation-list {
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .navigation-link {
@@ -94,6 +95,13 @@ body {
   display: block;
 }
 
+.navigation-user .link-icon {
+  display: block;
+  min-width: 20px;
+  min-height: 20px;
+  padding: 22px 12px;
+}
+
 .button {
   color: #ffffff;
   font-size: 20px;
@@ -101,14 +109,16 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: rgba(242, 242, 242, 0);
+  background-color: #756157;
   font-family: "PT Sans", sans-serif;
   border: 0;
+  padding: 8px 50px;
+  border-radius: 4px;
 }
 
-/*коричневые кнопки*/
-.button-primary {
-  background-color: #756157;
+/*бесцветные кнопки*/
+.button-colorless {
+  background-color: rgba(242, 242, 242, 0);
 }
 
 /*голубые кнопки*/
@@ -125,6 +135,11 @@ body {
   font-size: 16px;
   line-height: 20px;
   display: block;
+}
+
+/*Кнопка Хочу сюда*/
+.navigation-user .want-here {
+  margin: 14px 0 14px 20px;
 }
 
 /*main-index*/
