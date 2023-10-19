@@ -58,7 +58,7 @@ body {
 .page-header {
   display: flex;
   width: 1060px;
-  height: 64px;
+  min-height: 64px;
   padding: 0 70px;
   margin: 0 auto;
   background: #ffffff;
@@ -67,17 +67,19 @@ body {
 
 .logo-link {
   display: block;
-  margin-right: 30px;
+  position: absolute;
+
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
   width: 890px;
+  margin-left: 168px;
 }
 
 .navigation-list {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
@@ -144,9 +146,14 @@ body {
 
 /*main-index*/
 
+main {
+
+}
+
 .hero-main {
   background: #ffffff;
   text-align: center;
+  margin-bottom: 21px;
 }
 
 .hero-img {
@@ -185,6 +192,7 @@ body {
 .slogan-desc {
   font-size: 22px;
   line-height: 26px;
+  margin: 0;
 }
 /*advantages*/
 
