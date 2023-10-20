@@ -300,6 +300,10 @@ main {
   margin-bottom: 54px;
 }
 
+.search-hotel-button {
+  display: inline-block;
+}
+
 .newsletter {
   color: #ffffff;
   background-color: #82B3D3;
