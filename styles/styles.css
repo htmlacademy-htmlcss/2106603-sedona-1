@@ -84,6 +84,7 @@ body {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .navigation-link {
@@ -137,11 +138,6 @@ body {
   font-size: 16px;
   line-height: 20px;
   display: block;
-}
-
-/*Кнопка Хочу сюда*/
-.navigation-user .want-here {
-  margin: 14px 0 14px 20px;
 }
 
 /*main-index*/
@@ -290,8 +286,18 @@ main {
 /* Поиск гостиницы и подписка на новости */
 .search-hotel {
   background-color: #ffffff;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.search-hotel-wrapper {
   text-align: center;
-  padding: 96px 304px;
+  width: 592px;
+  margin: 0 auto;
+}
+
+.search-hotel-wrapper .slogan-desc {
+  margin-bottom: 54px;
 }
 
 .newsletter {
