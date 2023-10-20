@@ -216,6 +216,7 @@ main {
 
 .advantages-description-list {
   display: flex;
+  flex-wrap: wrap;
   color: #000000;
   background-color: #ffffff;
   list-style: none;
@@ -226,6 +227,7 @@ main {
 .advantages-description-item {
   background-color: rgba(131, 179, 211, 0.12);
   width: 230px;
+  min-height: 182px;
   padding: 103px 85px;
 }
 
@@ -238,6 +240,11 @@ main {
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
+  margin: 0;
+}
+
+.advantages-description {
+  margin: 0;
 }
 
 /*services*/
