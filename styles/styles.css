@@ -311,7 +311,26 @@ main {
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
-  padding: 96px 258px 104px 258px;
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
+.newsletter-wrapper {
+  width: 684px;
+  margin: 0 auto;
+}
+
+.newsletter-wrapper h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.newsletter-wrapper .slogan-desc {
+  margin-bottom: 54px;
+}
+
+.newsletter-form {
+  display: flex;
 }
 
 .newsletter-form input {
@@ -319,6 +338,14 @@ main {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
+  flex-grow: 1;
+  border: 0;
+  border-radius: 4px 0px 0px 4px; 
+  padding: 12px 20px;
+}
+
+.newsletter-form button {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .newsletter h2 {
