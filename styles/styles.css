@@ -225,6 +225,9 @@ main {
   width: 230px;
   min-height: 179px;
   padding: 103px 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .advantages-description-item:nth-child(even) {
@@ -281,6 +284,9 @@ main {
 .services-item {
   width: 230px;
   padding: 80px 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* Поиск гостиницы и подписка на новости */
@@ -294,6 +300,9 @@ main {
   text-align: center;
   width: 592px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .search-hotel-wrapper .slogan-desc {
@@ -318,6 +327,9 @@ main {
 .newsletter-wrapper {
   width: 684px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .newsletter-wrapper h2 {
