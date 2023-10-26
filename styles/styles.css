@@ -42,12 +42,23 @@ body {
   flex-grow: 1;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
 /*Header*/
 
 .page-header {
   display: flex;
   width: 1060px;
-  height: 64px;
+  min-height: 64px;
   padding: 0 70px;
   margin: 0 auto;
   background: #ffffff;
@@ -56,13 +67,15 @@ body {
 
 .logo-link {
   display: block;
-  margin-right: 30px;
+  position: absolute;
+
 }
 
 .navigation {
   display: flex;
   justify-content: space-between;
   width: 890px;
+  margin-left: 168px;
 }
 
 .navigation-list {
@@ -70,6 +83,8 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .navigation-link {
@@ -83,6 +98,13 @@ body {
   display: block;
 }
 
+.navigation-user .link-icon {
+  display: block;
+  min-width: 20px;
+  min-height: 20px;
+  padding: 22px 12px;
+}
+
 .button {
   color: #ffffff;
   font-size: 20px;
@@ -90,14 +112,16 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: rgba(242, 242, 242, 0);
+  background-color: #756157;
   font-family: "PT Sans", sans-serif;
   border: 0;
+  padding: 8px 50px;
+  border-radius: 4px;
 }
 
-/*коричневые кнопки*/
-.button-primary {
-  background-color: #756157;
+/*бесцветные кнопки*/
+.button-colorless {
+  background-color: rgba(242, 242, 242, 0);
 }
 
 /*голубые кнопки*/
@@ -118,9 +142,14 @@ body {
 
 /*main-index*/
 
+main {
+
+}
+
 .hero-main {
   background: #ffffff;
   text-align: center;
+  margin-bottom: 21px;
 }
 
 .hero-img {
@@ -159,6 +188,7 @@ body {
 .slogan-desc {
   font-size: 22px;
   line-height: 26px;
+  margin: 0;
 }
 /*advantages*/
 
@@ -182,6 +212,7 @@ body {
 
 .advantages-description-list {
   display: flex;
+  flex-wrap: wrap;
   color: #000000;
   background-color: #ffffff;
   list-style: none;
@@ -192,6 +223,7 @@ body {
 .advantages-description-item {
   background-color: rgba(131, 179, 211, 0.12);
   width: 230px;
+  min-height: 179px;
   padding: 103px 85px;
 }
 
@@ -204,6 +236,13 @@ body {
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.advantages-description {
+  margin: 0;
+  margin-top: 30px;
 }
 
 /*services*/
@@ -247,8 +286,22 @@ body {
 /* Поиск гостиницы и подписка на новости */
 .search-hotel {
   background-color: #ffffff;
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.search-hotel-wrapper {
   text-align: center;
-  padding: 96px 304px;
+  width: 592px;
+  margin: 0 auto;
+}
+
+.search-hotel-wrapper .slogan-desc {
+  margin-bottom: 54px;
+}
+
+.search-hotel-button {
+  display: inline-block;
 }
 
 .newsletter {
@@ -258,7 +311,26 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
   text-align: center;
-  padding: 96px 258px 104px 258px;
+  padding-top: 96px;
+  padding-bottom: 104px;
+}
+
+.newsletter-wrapper {
+  width: 684px;
+  margin: 0 auto;
+}
+
+.newsletter-wrapper h2 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.newsletter-wrapper .slogan-desc {
+  margin-bottom: 54px;
+}
+
+.newsletter-form {
+  display: flex;
 }
 
 .newsletter-form input {
@@ -266,6 +338,14 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
+  flex-grow: 1;
+  border: none;
+  border-radius: 4px 0px 0px 4px; 
+  padding: 12px 20px;
+}
+
+.newsletter-form button {
+  border-radius: 0px 4px 4px 0px;
 }
 
 .newsletter h2 {
@@ -289,6 +369,13 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+}
+
+.social-item {
+  display: block;
+  min-width: 24px;
+  min-height: 14px;
+  padding: 10px;
 }
 
 .footer-phone {
@@ -379,6 +466,12 @@ body {
   margin-bottom: 40px;
 }
 
+.breadcrumbs-item {
+  display: block;
+  min-width: 13px;
+  margin-right: 27px;
+}
+
 .breadcrumbs-link {
   color: inherit;
   text-decoration: none;
@@ -448,17 +541,32 @@ fieldset {
   width: 160px;
   margin-left: 70px;
   display: flex;
+  justify-content: space-between;
+}
 
+.catalog-control {
+  font-size: 18px;
+  line-height: 21px;
+  width: 292px;
+  padding: 14px 20px;
+  border-radius: 4px;
+  border: 2px solid #E5E5E5;
 }
 
 .button-composition {
   text-decoration: none;
   color: #000000;
+  display: block;
+  width: 24px;
+  height: 20px;
+  padding: 14px 12px;
+  border-radius: 4px;
+  border: 2px solid #E5E5E5;
 }
 
 .button-composition.active {
   color: #ffffff;
-  background-color: #000000;
+  border: 2px solid #000000;
 }
 
 /*Карточки товаров*/
@@ -530,7 +638,14 @@ fieldset {
   color: #ffffff;
   width: 60px;
   height: 60px;
-  display: inline-block;
+  display: block;
+  box-sizing: border-box;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700; 
+  border-radius: 4px;
+  text-align: center;
+  padding: 11.364px 0px 12.636px 0px;
 }
 
 .pagination-current {
