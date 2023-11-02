@@ -588,9 +588,8 @@ fieldset {
   margin: 0;
   margin-bottom: 40px;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
   gap: 20px;
 }
 
