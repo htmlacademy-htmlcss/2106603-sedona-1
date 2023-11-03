@@ -150,36 +150,38 @@
         </a>
       </footer>
       <section class="modal-search-form">
-        <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
-        <button class="modal-close-button" type="button">
-          <span class="visually-hidden">Закрыть</span>
-        </button>
+        <div class="hotel-form-visitors">
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <button class="modal-close-button" type="button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+        </div>
         <form class="hotel-form" action="#" method="post">
           <p class="hotel-form-date">
-            <label for="hotel-date">Дата заезда:</label>
-            <input type="text" id="hotel-date" value="27 апреля 2020">
+            <label for="hotel-date">Дата заезда:
+              <input type="text" id="hotel-date" value="27 апреля 2020">
+              <button class="calendar-button" type="button">Календарь</button>
+            </label>
             <span class="comment comment-error">Мы не можем отправить вас в прошлое.</span>
-            <button class="calendar-button" type="button">Календарь</button>
           </p>
           <p class="hotel-form-date">
-            <label for="hotel-date">Дата выезда:</label>
-            <input type="text" id="hotel-date" value="1 сентября 2023">
+            <label for="hotel-date">Дата выезда:
+              <input type="text" id="hotel-date" value="1 сентября 2023">
+              <button class="calendar-button" type="button">Календарь</button>
+            </label>
             <span class="comment">На эти даты есть свободные номера. Пока есть.</span>
-            <button class="calendar-button" type="button">Календарь</button>
           </p>
-          <div class="hotel-form-visitors">
-            <p>
-              <label for="hotel-old">Взрослые:</label>
-              <input type="text" id="hotel-old">
-            </p>
-            <p>
-              <label for="hotel-children">Дети:
-                <button class="tooltip-toggle" type="button">i</button>
-              </label>
-              <input type="text" id="hotel-children">
-            </p>
-          </div>
-          <button class="button button-secondary" type="submit">Найти</button>
+          <p class="hotel-form-visitors">
+            <label for="hotel-old">Взрослые:</label>
+            <input type="text" id="hotel-old">
+          </p>
+          <p class="hotel-form-visitors">
+            <label for="hotel-children">Дети:
+              <button class="tooltip-toggle" type="button">i</button>
+            </label>
+            <input type="text" id="hotel-children">
+          </p>
+          <button class="button button-secondary hotel-form-button" type="submit">Найти</button>
         </form>
       </section>
   </div>

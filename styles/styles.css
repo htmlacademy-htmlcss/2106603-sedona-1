@@ -438,6 +438,16 @@ main {
 
 .hotel-form {
   display: grid;
+  grid-template-columns: 247px 242px;
+  gap: 48px 88px;
+}
+
+.hotel-form-date {
+  grid-column: 1/-1;
+}
+
+.hotel-form p {
+  margin: 0;
 }
 .hotel-form input {
   background-color: #F2F2F2;
@@ -453,11 +463,10 @@ main {
 .hotel-form-visitors {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 48px;
 }
 
-.hotel-form-visitors p {
-  margin: 0;
+.hotel-form-button {
+  grid-column: 1/-1;
 }
 
 /*catalog*/
