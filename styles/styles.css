@@ -374,6 +374,7 @@ main {
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 40px  70px 30px 70px;
 }
 
@@ -396,6 +397,10 @@ main {
   line-height: 40px;
   color: #000000;
   text-decoration: none;
+}
+
+.footer-link img {
+  display: block;
 }
 
 /* Окно для поиска гостиницы по датам */
@@ -431,6 +436,9 @@ main {
   background-color: #F2F2F2;
 }
 
+.hotel-form {
+  display: grid;
+}
 .hotel-form input {
   background-color: #F2F2F2;
 }
@@ -597,6 +605,7 @@ fieldset {
 .product-card {
   display: grid;
   grid-template-columns: 140px 140px;
+  grid-template-rows: 212px 1fr;
   gap: 16px 20px;
   width: 298px;
   padding: 20px;
@@ -623,6 +632,7 @@ fieldset {
   line-height: 28px;
   color: #000000;
   margin: 0;
+
 }
 
 .product-card-link {
