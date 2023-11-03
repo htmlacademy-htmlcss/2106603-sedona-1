@@ -117,6 +117,7 @@ body {
   border: 0;
   padding: 8px 50px;
   border-radius: 4px;
+  text-align: center;
 }
 
 /*бесцветные кнопки*/
@@ -594,10 +595,26 @@ fieldset {
 }
 
 .product-card {
+  display: grid;
+  grid-template-columns: 140px 140px;
+  gap: 16px 20px;
   width: 298px;
   padding: 20px;
   border-radius: 4px;
   border: 1px solid #E6E6E6;
+}
+
+.product-card p {
+  margin: 0;
+}
+
+.product-card .button {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.product-card-image {
+  display: block;
 }
 
 .product-card-title {
@@ -605,18 +622,22 @@ fieldset {
   font-weight: 700;
   line-height: 28px;
   color: #000000;
+  margin: 0;
 }
 
 .product-card-link {
   text-decoration: none;
+  grid-column: 1/-1;
+}
+
+.product-card-right {
+  justify-self: end;
 }
 
 .rating {
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-  text-transform: uppercase;
   background-color: #F2F2F2;
+  color: #000000;
+  font-weight: 400;
 }
 
 /*Пагинация*/
