@@ -279,11 +279,8 @@ main {
   font-weight: 700;
   line-height: 28px;
   text-transform: uppercase;
-  margin: 30px 0;
-}
-
-.services-item:nth-child(odd){
-  background-color: rgba(131, 179, 211, 0.12);
+  margin-top: 102px;
+  margin-bottom: 30px;
 }
 
 .services-item {
@@ -292,6 +289,31 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.services-item:nth-child(odd){
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item:first-child {
+  background-image: url("../images/advantages/advantage-icon-1.svg");
+  background-repeat: no-repeat;
+  background-size: 75px 72px;
+  background-position: center top 80px;
+}
+
+.services-item:nth-child(2) {
+  background-image: url("../images/advantages/advantage-icon-2.svg");
+  background-repeat: no-repeat;
+  background-size: 75px 72px;
+  background-position: center top 80px;
+}
+
+.services-item:last-child {
+  background-image: url("../images/advantages/advantage-icon-3.svg");
+  background-repeat: no-repeat;
+  background-size: 75px 72px;
+  background-position: center top 80px;
 }
 
 .services-item p {
