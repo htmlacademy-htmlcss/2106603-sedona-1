@@ -621,15 +621,13 @@ fieldset {
   flex-grow: 1;
 }
 
-.catalog-control {
-  width: 292px;
-}
-
 .view-composition {
   width: 160px;
   margin-left: 70px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
 }
 
 .catalog-control {
@@ -646,7 +644,7 @@ fieldset {
   color: #000000;
   display: block;
   width: 24px;
-  height: 20px;
+  height: 17px;
   padding: 14px 12px;
   border-radius: 4px;
   border: 2px solid #E5E5E5;
@@ -657,6 +655,26 @@ fieldset {
   border: 2px solid #000000;
 }
 
+.view-cards {
+  background-image: url(../images/icons/view-cards.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.view-big {
+  background-image: url(../images/icons/view-big.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.view-list {
+  background-image: url(../images/icons/view-list.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
 /*Карточки товаров*/
 
 .product-list {
