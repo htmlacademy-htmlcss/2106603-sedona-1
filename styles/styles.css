@@ -104,6 +104,22 @@ body {
   min-height: 20px;
   padding: 22px 12px;
 }
+ 
+.navigation-user .navigation-item:nth-child(1) .link-icon {
+  background-image: url("../images/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(2) .link-icon {
+  background-image: url("../images/icons/like-icon.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation-user .navigation-item:nth-child(3) {
+  margin-left: 20px;
+}
 
 .button {
   display: inline-block;
