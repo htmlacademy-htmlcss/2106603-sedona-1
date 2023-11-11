@@ -557,12 +557,41 @@ main {
 .breadcrumbs-item {
   display: block;
   min-width: 13px;
-  margin-right: 27px;
+  padding-right: 7px;
+  margin-right: 10px;
+  position: relative;
 }
 
 .breadcrumbs-link {
   color: inherit;
   text-decoration: none;
+  display: block;
+  cursor: pointer;
+  min-height: 21px;
+  min-width: 13px;
+  padding-right: 10px; 
+}
+
+.breadcrumbs-item:nth-child(1) {
+  background-image: url(../images/icons/hous-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 12px 12px;
+  background-position:  0% 50%;
+}
+
+.breadcrumbs-item::after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/icons/right-arrow.svg);
+  background-repeat: no-repeat;
+  width: 8px;
+  height: 11px;
+  top: 5px;
+  right: 0px;
+}
+
+.breadcrumbs-item:last-child::after {
+  content: none;
 }
 
 fieldset {
