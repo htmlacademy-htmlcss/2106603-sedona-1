@@ -785,7 +785,10 @@ fieldset {
 .pagination-ellipsis {
   width: 60px;
   height: 60px;
-  display: inline-block;
+  display: block;
+  text-align: center;
+  padding-top: 19px;
+
 }
 
 .pagination-link {
