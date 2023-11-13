@@ -443,10 +443,24 @@ main {
 .social-item a {
   display: block;
   padding: 10px;
+  color: #83B3D3;
 }
 
 .social-item svg {
   display: block;
+}
+
+.social-item a:hover {
+  color: #68A2CA;
+}
+
+.social-item a:focus {
+  color: #68A2CA;
+}
+
+.social-item a:active {
+  color: #68A2CA;
+  opacity: 0.3;
 }
 
 .footer-phone {
@@ -456,9 +470,40 @@ main {
   text-decoration: none;
 }
 
-.footer-link img {
+.footer-phone:hover {
+  color: #756157;
+}
+
+.footer-phone:focus {
+  color: #756157;
+}
+
+.footer-phone:active {
+  color: #756157;
+  opacity: 0.3;
+}
+
+.footer-link {
+  color: #000000;
+}
+
+.footer-link svg {
   display: block;
 }
+
+.footer-link:hover {
+  color: #756157;
+}
+
+.footer-link:focus {
+  color: #756157;
+}
+
+.footer-link:active {
+  color: #756157;
+  opacity: 0.3;
+}
+
 
 /* Окно для поиска гостиницы по датам */
 
