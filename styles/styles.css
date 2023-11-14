@@ -113,6 +113,23 @@ body {
   min-width: 20px;
   min-height: 20px;
   padding: 22px 12px;
+  position: relative;
+}
+
+.navigation-user .navigation-item:nth-child(2) .link-icon::after {
+  position: absolute;
+  content: "12";
+  width: 12px;
+  height: 10px;
+  background-color: #7DB54F;
+  right: 4px;
+  top: 11px; 
+  border-radius: 50%;
+  font-size: 10px;
+  line-height: 10px;
+  color: #ffffff;
+  padding: 5px 4px;
+  text-align: center;
 }
  
 .navigation-user .navigation-item:nth-child(1) .link-icon {
@@ -141,7 +158,6 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #756157;
   font-family: "PT Sans", sans-serif;
   border: none;
   padding: 8px 50px;
@@ -150,17 +166,22 @@ body {
   cursor: pointer;
 }
 
+/*коричневые*/
+.button-brown {
+  background-color: #756157;
+}
+
 /*бесцветные кнопки*/
 .button-colorless {
   background-color: rgba(242, 242, 242, 0);
 }
 
 /*голубые кнопки*/
-.button-secondary {
+.button-blue {
   background-color: #82B3D3;
 }
 /*зеленые кнопки*/
-.button-favourit {
+.button-green {
   background-color: #7DB54F;
 }
 
@@ -169,6 +190,63 @@ body {
   font-size: 16px;
   line-height: 20px;
   display: block;
+}
+
+.button-brown:hover {
+  background-color: #615048;
+}
+
+.button-brown:focus {
+  background-color: #615048;
+  outline: none;
+}
+
+.button-brown:active {
+  background-color: #756157;
+}
+
+.button-blue:hover {
+  background-color: #68A2CA;
+}
+
+.button-blue:focus {
+  background-color: #68A2CA;
+  outline: none;
+}
+
+.button-blue:active {
+  background-color: #82B3D3;
+}
+
+.button-green:hover {
+  background-color: #6C9E42;
+}
+
+.button-green:focus {
+  background-color: #6C9E42;
+  outline: none;
+}
+
+.button-green:active {
+  background-color: #7DB54F;
+}
+
+.button-colorless:hover {
+  opacity: 0.6;
+}
+
+.button-colorless:focus {
+  border-radius: 4px;
+  border: 3px solid #83B3D3;
+  outline: none;
+}
+
+.button-colorless:active {
+  opacity: 0.3;
+}
+
+.button:disabled {
+  background-color: #E5E5E5;
 }
 
 /*main-index*/
