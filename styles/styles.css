@@ -1057,6 +1057,18 @@ fieldset {
   color: #000000;
 }
 
+.pagination-link:not(.pagination-current):hover {
+  background-color: #68A2CA;
+}
+
+.pagination-link:not(.pagination-current):focus {
+  background-color: #68A2CA;
+}
+
+.pagination-link:not(.pagination-current):active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
 .main-inner .newsletter {
   background-color: #ffffff;
   background-image: none;
