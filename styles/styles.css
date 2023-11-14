@@ -68,7 +68,6 @@ body {
 .logo-link {
   display: block;
   position: absolute;
-
 }
 
 .navigation {
@@ -96,6 +95,17 @@ body {
   text-align: center;
   padding: 20px 16px;
   display: block;
+  position: relative;
+}
+
+.active .navigation-link::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  bottom: -1px; 
+  right: 16px;
+  left: 16px;
+  background-color: #756257;
 }
 
 .navigation-user .link-icon {
