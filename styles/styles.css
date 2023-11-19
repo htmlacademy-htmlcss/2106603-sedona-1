@@ -270,11 +270,23 @@ main {
   height: 352px;
   padding-top: 51px;
   padding-bottom: 82px;
+  position: relative;
 }
 
 .hero-img img {
   display: block;
   margin: 0 auto;
+}
+
+.hero-img::after {
+  position: absolute;
+  content: "";
+  background: url(../images/white-decor.svg) no-repeat;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 57px;
+  z-index: 1;
 }
 
 .hero-description {
@@ -1015,6 +1027,20 @@ fieldset {
   border: 2px solid #E5E5E5;
 }
 
+.button-composition:hover {
+  border: 2px solid #000000;
+}
+
+.button-composition:focus {
+  border: 2px solid #68A2CA;
+  outline: none;
+}
+
+.button-composition:active {
+  border: 2px solid #000000;
+}
+
+
 .button-composition.active {
   color: #ffffff;
   border: 2px solid #000000;
@@ -1040,6 +1066,7 @@ fieldset {
   background-position: center;
   background-size: 16px 14px;
 }
+
 /*Карточки товаров*/
 
 .product-list {
