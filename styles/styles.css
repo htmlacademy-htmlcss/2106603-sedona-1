@@ -989,7 +989,12 @@ fieldset {
   border-color: #68A2CA;
 }
 
-.catalog-control:focus {
+.catalog-control:focus-visible {
+  border-color: #68A2CA;
+  outline: none;
+}
+
+.catalog-control:not(:empty):focus {
   border-color: #3F5E72;
   outline: none;
 }
