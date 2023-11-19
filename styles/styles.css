@@ -315,6 +315,11 @@ main {
   flex-wrap: wrap;
 }
 
+.advantages-list img {
+  object-fit: cover;
+  height: auto;
+}
+
 .advantages-item {
   text-align: center;
   display: flex;
@@ -370,7 +375,11 @@ main {
   margin-top: 30px;
 }
 
-.advantages-description-item .advantages-title:after {
+.advantages-list .advantages-title:after {
+  background-color: rgba(255, 255, 255, 0.30);
+} 
+
+.advantages-description-list .advantages-title:after {
   position: absolute;
   content: "";
   width: 60px;
