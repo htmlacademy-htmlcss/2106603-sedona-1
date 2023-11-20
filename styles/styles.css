@@ -715,12 +715,6 @@ main {
   opacity: 0.6;
 }
 
-/*.modal-close-button:disabled {
-  background-color: #E5E5E5;
-  cursor: default;
-  opacity: 0.3;
-}*/
-
 .hotel-form {
   display: grid;
   grid-template-columns: 247px 242px;
@@ -760,16 +754,6 @@ main {
 
 .hotel-form-button {
   grid-column: 1/-1;
-}
-
-.tooltip-toggle {
-  background-image: url(../images/icons/tooltip.svg);
-  background-repeat: no-repeat;
-  border:none;
-  width: 26px;
-  height: 26px;
-  background-color: #ffffff;
-  padding: 0;
 }
 
 .hotel-form-label {
@@ -814,14 +798,24 @@ main {
   opacity: 0.3;
 }
 
-.popover {
+.tooltip-toggle {
+  background: url(../images/icons/tooltip.svg) no-repeat;
+  border:none;
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+}
+
+.tooltip {
   position: absolute;
   top: 280px;
   right: 42px;
   width: 256px;
   height: 143px;
   border-radius: 10px;
-  background: var(--basic-dark, #333);
+  background: #333333;
   background-image: url(../images/icons/triangle.svg);
   background-repeat: no-repeat;
   background-position: 50% -5%;
@@ -836,7 +830,7 @@ main {
   display: none;
 }
 
-.popover-open {
+.tooltip-toggle:hover ~.tooltip{
   display: block;
 }
 
@@ -844,6 +838,12 @@ main {
   display: flex;
   gap: 10px;
   width: 85px;
+}
+
+.counter {
+  width: 110px;
+  box-sizing: border-box;
+  background-color: #F2F2F2;
 }
 
 /*catalog*/
