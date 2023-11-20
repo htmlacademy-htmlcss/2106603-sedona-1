@@ -68,6 +68,7 @@ body {
 .logo-link {
   display: block;
   position: absolute;
+  z-index: 1;
 }
 
 .navigation {
@@ -248,6 +249,7 @@ body {
 
 .button:disabled {
   background-color: #E5E5E5;
+  cursor: default;
 }
 
 /*main-index*/
@@ -696,6 +698,7 @@ main {
   height: 52px;
   border-radius: 50%;
   border: none;
+  cursor: pointer;
 }
 
 .modal-close-button:hover {
@@ -711,6 +714,12 @@ main {
   background-color: #E6E6E6;
   opacity: 0.6;
 }
+
+/*.modal-close-button:disabled {
+  background-color: #E5E5E5;
+  cursor: default;
+  opacity: 0.3;
+}*/
 
 .hotel-form {
   display: grid;
