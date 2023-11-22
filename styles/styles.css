@@ -964,6 +964,98 @@ fieldset {
   width: 1060px;
 }
 
+.catalog-filter-title {
+  margin-bottom: 32px;
+}
+
+.range-wrapper-inputs {
+  display: flex;
+  width: 288px;
+  height: 48px;
+  align-items: flex-start;
+  gap: 2px;
+  
+}
+
+.range-label {
+  display: flex;
+  color: rgba(0, 0, 0, 0.3);
+  width: 143px;
+  height: 48px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background: #F2F2F2;
+}
+
+.range-input {
+  width: 80px;
+  border: none;
+  font: inherit;
+  font-weight: 700;
+  background: transparent;
+}
+
+.range-label:first-child {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.range-label:last-child {
+  border-radius: 0 4px 4px 0;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0; 
+}
+
+.range-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgba(255,255,255,0.3);
+  margin-top: 48px;
+}
+
+.range-bar {
+  position: absolute;
+  background-color: #ffffff;
+  height: 4px;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 0;
+  cursor: pointer;
+  border-style: none;
+}
+
+.range-toggle:hover {
+  box-shadow: 0 4px 5px;
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83B3D3;
+  box-shadow: 0 4px 5px;
+}
+
+.range-toggle:active {
+  outline: 2px solid #83B3D3;
+  box-shadow: 0 4px 5px;
+}
+
+.toggle-min {
+  top: -8px;
+  left: 0;
+}
+
+.toggle-max {
+  top: -8px;
+  right: -10px;
+}
 /*Сортировка*/
 
 .selection-parameters {
