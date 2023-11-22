@@ -952,16 +952,50 @@ fieldset {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .catalog-filter-item {
   line-height: 23px;
 }
 
-.main-catalog {
+.control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
+}
+
+.control-mark,
+.control-radio {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
   background-color: #ffffff;
-  padding: 50px 70px 60px;
-  width: 1060px;
+  left: 0;
+  top: 2px;
+}
+
+.control-radio {
+  border-radius: 50%;
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  content: "";
+  position: absolute;
+  background: url(../images/icons/checkbox.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+}
+
+.control-input[type="radio"]:checked + .control-radio::after {
+  content: "";
+  position: absolute;
+  background: url(../images/icons/point.svg) no-repeat;
+  width: 20px;
+  height: 20px;
 }
 
 .catalog-filter-title {
@@ -1066,6 +1100,12 @@ fieldset {
 }
 
 /*Сортировка*/
+
+.main-catalog {
+  background-color: #ffffff;
+  padding: 50px 70px 60px;
+  width: 1060px;
+}
 
 .selection-parameters {
   display: flex;
