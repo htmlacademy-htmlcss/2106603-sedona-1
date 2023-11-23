@@ -1002,8 +1002,8 @@ fieldset {
   opacity: 0.6;
 }
 
-.control:focus .control-mark,
-.control:focus .control-radio {
+.control-input:focus-visible + .control-mark,
+.control-input:focus-visible + .control-radio {
   outline: 3px solid #83B3D3;
 }
 
@@ -1040,6 +1040,7 @@ fieldset {
   font: inherit;
   font-weight: 700;
   background: transparent;
+  outline: none;
 }
 
 .range-label:first-child {
@@ -1048,6 +1049,14 @@ fieldset {
 
 .range-label:last-child {
   border-radius: 0 4px 4px 0;
+}
+
+.range-label:focus-visible {
+  border: 3px solid #83B3D3;
+}
+
+.range-label:focus-within {
+  border: 2px solid #000;
 }
 
 .range-input::-webkit-outer-spin-button,
