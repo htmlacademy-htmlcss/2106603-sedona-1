@@ -998,6 +998,19 @@ fieldset {
   height: 20px;
 }
 
+.control:hover {
+  opacity: 0.6;
+}
+
+.control:focus .control-mark,
+.control:focus .control-radio {
+  outline: 3px solid #83B3D3;
+}
+
+.control:active {
+  opacity: 0.3;
+}
+
 .catalog-filter-title {
   margin-bottom: 32px;
 }
