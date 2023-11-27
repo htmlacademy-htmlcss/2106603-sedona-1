@@ -54,7 +54,8 @@
             </li>
           </ol>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <fieldset class="catalog-filter-group">
+            <div class="catalog-filter-left">
+              <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
@@ -79,9 +80,9 @@
                     </label>
                   </li>
                 </ul>
-            </fieldset>
-            <fieldset class="catalog-filter-group">
-                <legend class="catalog-filter-title">Тип жилья:</legend>
+              </fieldset>
+              <fieldset class="catalog-filter-group">
+                <legend class="catalog-filter-title">Тип Жилья:</legend>
                 <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                     <label class="control">
@@ -105,16 +106,16 @@
                     </label>
                   </li>
                 </ul>
-            </fieldset>
-            <fieldset class="catalog-filter-group">
+              </fieldset>
+            </div>
+            <div class="catalog-filter-right">
+              <fieldset class="catalog-filter-group price">
                 <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                 <div class="range-wrapper-inputs">
                   <label class="range-label">
-                    <input class="range-input" type="number" value="0" name="min-price"> от
-                  </label>
+                    <input class="range-input" type="number" value="0" name="min-price">от</label>
                   <label class="range-label">
-                    <input class="range-input" type="number" value="9000" name="min-price"> до
-                  </label>
+                    <input class="range-input" type="number" value="9000" name="min-price">до</label>
                 </div>
                 <div class="range">
                   <div class="range-scale">
@@ -128,10 +129,11 @@
                     </div>
                   </div>
                 </div>
-            </fieldset>
-            <div class="wrap-button">
+              </fieldset>
+              <div class="wrap-button">
               <button class="button button-blue button-smaller-font" type="submit">Применить</button>
               <button class="button button-colorless button-smaller-font" type="reset">Сбросить</button>
+              </div>
             </div>
           </form>
         </section>
@@ -190,7 +192,7 @@
                 <img class="product-card-image" src="images/catalog/hotel-3.jpg" width="300" height="212" alt="Рыже-оранжевая гора на фоне голубого неба.">
               </a>
               <a class="product-card-link" href=#>
-                <h3 class="product-card-title">Desert Quail</h3>
+                <h3 class="product-card-title">Desert Quail Inn</h3>
               </a>
               <p class="product-card-left">Гостиница</p>
               <p class="product-card-right">От 2500 ₽</p>
