@@ -22,7 +22,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  background: #F2F2F2;
+  background: #f2f2f2;
   color: #333333;
   margin: 0;
   height: 100%;
@@ -136,7 +136,7 @@ body {
   content: "12";
   width: 12px;
   height: 10px;
-  background-color: #7DB54F;
+  background-color: #7db54f;
   right: 4px;
   top: 11px; 
   border-radius: 50%;
@@ -199,11 +199,11 @@ body {
 
 /*голубые кнопки*/
 .button-blue {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 /*зеленые кнопки*/
 .button-green {
-  background-color: #7DB54F;
+  background-color: #7db54f;
 }
 
 /*кнопки с меньшим шрифтом*/
@@ -227,29 +227,29 @@ body {
 }
 
 .button-blue:hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .button-blue:focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
   outline: none;
 }
 
 .button-blue:active {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .button-green:hover {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
 }
 
 .button-green:focus {
-  background-color: #6C9E42;
+  background-color: #6c9e42;
   outline: none;
 }
 
 .button-green:active {
-  background-color: #7DB54F;
+  background-color: #7db54f;
 }
 
 .button-colorless:hover {
@@ -258,7 +258,7 @@ body {
 
 .button-colorless:focus {
   border-radius: 4px;
-  outline: 3px solid #83B3D3;
+  outline: 3px solid #83b3d3;
 }
 
 .button-colorless:active {
@@ -266,15 +266,11 @@ body {
 }
 
 .button:disabled {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   cursor: default;
 }
 
 /*main-index*/
-
-main {
-
-}
 
 .hero-main {
   background: #ffffff;
@@ -283,7 +279,7 @@ main {
 }
 
 .hero-img {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -306,7 +302,6 @@ main {
   left: 0;
   bottom: 0;
   height: 57px;
-  /*z-index: 1;*/
 }
 
 .hero-description {
@@ -314,7 +309,8 @@ main {
   width: 1200px;
   padding: 69px 0;
 }
-.hero-slogan, .slogan {
+.hero-slogan,
+.slogan {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -335,7 +331,7 @@ main {
 /*advantages*/
 
 .advantages {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   color: #ffffff;
 }
 
@@ -391,7 +387,7 @@ main {
   position: relative;
 }
 
-.advantages-title:after {
+.advantages-title::after {
   position: absolute;
   content: "";
   width: 60px;
@@ -407,11 +403,11 @@ main {
   margin-top: 30px;
 }
 
-.advantages-list .advantages-title:after {
+.advantages-list .advantages-title::after {
   background-color: rgba(255, 255, 255, 0.30);
 } 
 
-.advantages-description-list .advantages-title:after {
+.advantages-description-list .advantages-title::after {
   position: absolute;
   content: "";
   width: 60px;
@@ -714,14 +710,14 @@ main {
 }
 
 .comment-error {
-  color: #FF5757;
+  color: #ff5757;
 }
 
 .modal-close-button {
   position: absolute;
   left: 614px;
   top: 65px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   background-image: url(../images/icons/close-icon.svg);
   background-repeat: no-repeat;
   background-size: 14px 14px;
@@ -735,16 +731,16 @@ main {
 }
 
 .modal-close-button:hover {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
 }
 
 .modal-close-button:focus {
-  background-color: #E6E6E6;
-  outline: 3px solid #83B3D3;
+  background-color: #e6e6e6;
+  outline: 3px solid #83b3d3;
 }
 
 .modal-close-button:active {
-  background-color: #E6E6E6;
+  background-color: #e6e6e6;
   opacity: 0.6;
 }
 
@@ -763,7 +759,7 @@ main {
   margin: 0;
 }
 .hotel-form input {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .hotel-form .button {
@@ -806,7 +802,7 @@ main {
   padding: 12px 20px;
   border-style: none;
   border-radius: 4px;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font: inherit;
   font-size: 18px;
   width: 400px;
@@ -815,35 +811,35 @@ main {
 
 .hotel-form-date .field:hover {
   opacity: 0.6;
-  background: #E6E6E6;
+  background: #e6e6e6;
 }
  
 .hotel-form-date .field:placeholder-shown {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
 .hotel-form-date .field:not(:placeholder-shown) {
   outline: 2px solid #000000;
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
 
 .hotel-form-date .field:focus-visible {
-  outline: 3px solid #83B3D3;
-  background: #E6E6E6;
+  outline: 3px solid #83b3d3;
+  background: #e6e6e6;
   opacity: 0.6;
   border: none;
 }
 
 .hotel-form-date .field:invalid {
-  color: #FF5757;
-  background: #F2F2F2;
+  color: #ff5757;
+  background: #f2f2f2;
 }
 
 .counter {
   width: 110px;
   height: 48px;
   box-sizing: border-box;
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   display: flex;
   border-radius: 4px;
 }
@@ -954,9 +950,8 @@ main {
   display: none;
 }
 
-.tooltip:before {
+.tooltip::before {
   content: "";
-  display: block;
   position: absolute;
   width: 19px;
   height: 9px;
@@ -987,11 +982,11 @@ main {
 }
 
 .main-inner-filter {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   background-image: url(../images/inner-filter.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 35px 70px 70px;
 }
 
@@ -1153,7 +1148,7 @@ fieldset {
 
 .control-input:focus-visible + .control-mark,
 .control-input:focus-visible + .control-radio {
-  outline: 3px solid #83B3D3;
+  outline: 3px solid #83b3d3;
 }
 
 .control:active {
@@ -1180,7 +1175,7 @@ fieldset {
   height: 48px;
   padding: 12px 20px;
   box-sizing: border-box;
-  background: #F2F2F2;
+  background: #f2f2f2;
   line-height: 24px;
 }
 
@@ -1205,13 +1200,12 @@ fieldset {
   border-radius: 0 4px 4px 0;
 }
 
-/* ПРОБЛЕМНЫЙ МОМЕНТ*/
 .range-label:focus-within {
-  border: 2px solid #000;
+  border: 2px solid #000000;
 }
 
 .range-label:focus {
-  border: 3px solid #83B3D3;
+  border: 3px solid #83b3d3;
 }
 
 .range-input::-webkit-outer-spin-button,
@@ -1249,12 +1243,12 @@ fieldset {
 }
 
 .range-toggle:focus {
-  outline: 3px solid #83B3D3;
+  outline: 3px solid #83b3d3;
   box-shadow: 0 4px 5px;
 }
 
 .range-toggle:active {
-  outline: 2px solid #83B3D3;
+  outline: 2px solid #83b3d3;
   box-shadow: 0 4px 5px;
 }
 
@@ -1317,7 +1311,7 @@ fieldset {
   padding: 12px 20px;
   padding-right: 40px;
   border-radius: 4px;
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
   appearance: none;
   font-family: inherit;
   background-image: url(../images/icons/bottom-arrow.svg);
@@ -1326,16 +1320,16 @@ fieldset {
 }
 
 .catalog-control:hover {
-  border-color: #68A2CA;
+  border-color: #68a2ca;
 }
 
 .catalog-control:focus-visible {
-  border-color: #68A2CA;
+  border-color: #68a2ca;
   outline: none;
 }
 
 .catalog-control:not(:empty):focus {
-  border-color: #3F5E72;
+  border-color: #3f5e72;
   outline: none;
 }
 
@@ -1352,7 +1346,7 @@ fieldset {
   height: 20px;
   padding: 12px;
   border-radius: 4px;
-  border: 2px solid #E5E5E5;
+  border: 2px solid #e5e5e5;
 }
 
 .button-composition:hover {
@@ -1360,7 +1354,7 @@ fieldset {
 }
 
 .button-composition:focus {
-  border: 2px solid #68A2CA;
+  border: 2px solid #68a2ca;
   outline: none;
 }
 
@@ -1450,7 +1444,7 @@ fieldset {
 }
 
 .rating {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   color: #000000;
   font-weight: 400;
 }
@@ -1476,8 +1470,6 @@ fieldset {
   width: 41px;
 }
 
-
-
 /*Пагинация*/
 
 .pagination {
@@ -1486,7 +1478,7 @@ fieldset {
   padding: 0;
   display: flex;
   padding-top: 39px;
-  border-top: 1px solid #E6E6E6;
+  border-top: 1px solid #e6e6e6;
 }
 
 .pagination-item {
@@ -1508,7 +1500,7 @@ fieldset {
 }
 
 .pagination-link {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   text-decoration: none;
   color: #ffffff;
   width: 60px;
@@ -1524,20 +1516,20 @@ fieldset {
 }
 
 .pagination-current {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   color: #000000;
 }
 
 .pagination-link:not(.pagination-current):hover {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .pagination-link:not(.pagination-current):focus {
-  background-color: #68A2CA;
+  background-color: #68a2ca;
 }
 
 .pagination-link:not(.pagination-current):active {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
 .main-inner .newsletter {
