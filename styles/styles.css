@@ -1014,6 +1014,7 @@ body {
   display: flex;
   margin-bottom: 40px;
   font-size: 16px;
+  flex-wrap: wrap;
 }
 
 .breadcrumbs-item {
@@ -1325,6 +1326,7 @@ fieldset {
   width: 160px;
   margin-left: 70px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
   gap: 8px;
@@ -1503,6 +1505,7 @@ fieldset {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   padding-top: 39px;
   border-top: 1px solid #e6e6e6;
 }
