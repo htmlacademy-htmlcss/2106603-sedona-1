@@ -905,17 +905,17 @@ body {
 }
 
 .calendar-button {
+  position: absolute; 
+  right: 20px;
   width: 16px;
   height: 15px;
   border: none;
   box-sizing: content-box;
   padding: 2px 2px 3px 2px;
   top: 12px;
-  background-image: url(../images/icons/calendar-icon.svg);
+  /*background-image: url(../images/icons/calendar-icon.svg);
   background-repeat: no-repeat;
-  background-position: 50% 50%;
-  position: absolute; 
-  right: 20px;
+  background-position: 50% 50%;*/
   opacity: 0.3;
   cursor: pointer;
 }
