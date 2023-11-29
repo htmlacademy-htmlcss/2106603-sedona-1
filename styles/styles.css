@@ -351,6 +351,7 @@ body {
 .advantages-item {
   text-align: center;
   display: flex;
+  background-color: #82b3d3;
 }
 
 .advantages-description-list {
@@ -439,6 +440,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .services-title {
@@ -667,7 +669,7 @@ body {
 }
 
 /* Окно для поиска гостиницы по датам */
-.modal-form-open {
+.modal-search-form {
   position: fixed;
   top: 0;
   left: 0;
@@ -677,7 +679,7 @@ body {
   background: rgba(242, 242, 242, 0.80); 
 }
 
-.modal-search-form {
+.modal-form-close {
   display: none;
 }
 
@@ -1307,7 +1309,7 @@ fieldset {
 
 .selection-parameters {
   display: flex;
-  height: 49px;
+  min-height: 49px;
   margin-bottom: 40px;
   justify-content: flex-end;
 }
@@ -1336,6 +1338,7 @@ fieldset {
   font-size: 18px;
   line-height: 21px;
   width: 295px;
+  max-height: 49px;
   padding: 12px 20px;
   padding-right: 40px;
   border-radius: 4px;
@@ -1370,7 +1373,7 @@ fieldset {
   text-decoration: none;
   color: #000000;
   display: block;
-  width: 24px;
+  width: 20px;
   height: 20px;
   padding: 12px;
   border-radius: 4px;
