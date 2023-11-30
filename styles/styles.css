@@ -14,6 +14,13 @@
   font-display: swap;
 }
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 1 version
+*/
+
 html {
   height: 100%;
 }
@@ -344,7 +351,8 @@ body {
 }
 
 .advantages-list img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   height: auto;
 }
 
@@ -751,7 +759,9 @@ body {
 }
 
 .hotel-form {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 247px 88px 242px;
   grid-template-columns: 247px 242px;
   gap: 23px 88px;
   position: relative;
@@ -820,7 +830,25 @@ body {
   background: #e6e6e6;
 }
  
+.hotel-form-date .field:-moz-placeholder-shown {
+  background: #f2f2f2;
+}
+ 
+.hotel-form-date .field:-ms-input-placeholder {
+  background: #f2f2f2;
+}
+ 
 .hotel-form-date .field:placeholder-shown {
+  background: #f2f2f2;
+}
+
+.hotel-form-date .field:not(:-moz-placeholder-shown) {
+  outline: 2px solid #000000;
+  background: #f2f2f2;
+}
+
+.hotel-form-date .field:not(:-ms-input-placeholder) {
+  outline: 2px solid #000000;
   background: #f2f2f2;
 }
 
@@ -912,7 +940,8 @@ body {
 
 .field::-webkit-outer-spin-button,
 .field::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0; 
 }
 
@@ -1239,7 +1268,8 @@ fieldset {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0; 
 }
 
@@ -1343,7 +1373,9 @@ fieldset {
   padding-right: 40px;
   border-radius: 4px;
   border: 2px solid #e5e5e5;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   font-family: inherit;
   background-image: url(../images/icons/bottom-arrow.svg);
   background-repeat: no-repeat;
@@ -1427,20 +1459,45 @@ fieldset {
   margin: 0;
   margin-bottom: 39px;
   padding: 0;
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 340px 20px 340px 20px 340px;
   grid-template-columns: repeat(3, 340px);
   gap: 18px 20px;
 }
 
 .product-card {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 140px 20px 140px;
   grid-template-columns: 140px 140px;
+  -ms-grid-rows: 212px 16px 1fr;
   grid-template-rows: 212px 1fr;
   gap: 16px 20px;
   width: 298px;
   padding: 20px;
   border-radius: 4px;
   border: 1px solid #E6E6E6;
+}
+
+.product-card > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+
+.product-card > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+
+.product-card > *:nth-child(3) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+
+.product-card > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
 }
 
 .product-card p {
@@ -1471,7 +1528,8 @@ fieldset {
 }
 
 .product-card-right {
-  justify-self: end;
+  -ms-grid-column-align: end;
+      justify-self: end;
 }
 
 .rating {
