@@ -304,7 +304,7 @@ body {
 .hero-img::after {
   position: absolute;
   content: "";
-  background: url(../images/white-decor.svg) no-repeat;
+  background: url("../images/white-decor.svg") no-repeat;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -335,6 +335,7 @@ body {
   line-height: 26px;
   margin: 0;
 }
+
 /*advantages*/
 
 .advantages {
@@ -429,6 +430,7 @@ body {
 }
 
 /*services*/
+
 .services {
   background-color: #ffffff;
   text-align: center;
@@ -499,6 +501,7 @@ body {
 }
 
 /* Поиск гостиницы и подписка на новости */
+
 .search-hotel {
   background-color: #ffffff;
   padding-top: 97px;
@@ -527,7 +530,7 @@ body {
 .newsletter {
   color: #ffffff;
   background-color: #576771;
-  background-image: url(../images/newsletter.jpg);
+  background-image: url("../images/newsletter.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -559,7 +562,7 @@ body {
 }
 
 .newsletter-form input {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -613,7 +616,7 @@ body {
 .social-item a {
   display: block;
   padding: 10px;
-  color: #83B3D3;
+  color: #83b3d3;
 }
 
 .social-item svg {
@@ -621,15 +624,15 @@ body {
 }
 
 .social-item a:hover {
-  color: #68A2CA;
+  color: #68a2ca;
 }
 
 .social-item a:focus {
-  color: #68A2CA;
+  color: #68a2ca;
 }
 
 .social-item a:active {
-  color: #68A2CA;
+  color: #68a2ca;
   opacity: 0.3;
 }
 
@@ -733,7 +736,7 @@ body {
   left: 614px;
   top: 65px;
   background-color: #f2f2f2;
-  background-image: url(../images/icons/close-icon.svg);
+  background-image: url("../images/icons/close-icon.svg");
   background-repeat: no-repeat;
   background-size: 14px 14px;
   background-position:  50% 50%;
@@ -900,22 +903,22 @@ body {
 }
 
 .minus {
-  background: url(../images/icons/minus-icon.svg) no-repeat;
+  background: url("../images/icons/minus-icon.svg") no-repeat;
   background-position: 50% 50%;
 }
 
 .plus {
-  background: url(../images/icons/plus-icon.svg) no-repeat;
+  background: url("../images/icons/plus-icon.svg") no-repeat;
   background-position: 50% 50%;
 }
 
 .minus:hover {
-  background: url(../images/icons/minus-black.svg) no-repeat;
+  background: url("../images/icons/minus-black.svg") no-repeat;
   background-position: 50% 50%;
 }
 
 .plus:hover {
-  background: url(../images/icons/plus-black.svg) no-repeat;
+  background: url("../images/icons/plus-black.svg") no-repeat;
   background-position: 50% 50%;
 }
 
@@ -924,18 +927,18 @@ body {
 }
 
 .minus:focus-visible {
-  background: url(../images/icons/minus-black.svg) no-repeat;
+  background: url("../images/icons/minus-black.svg") no-repeat;
   background-position: 50% 50%;
   border-radius: 4px;
-  border: 3px solid #82B3D3;
+  border: 3px solid #82b3d3;
   outline: none;
 }
 
 .plus:focus-visible  {
-  background: url(../images/icons/plus-black.svg) no-repeat;
+  background: url("../images/icons/plus-black.svg") no-repeat;
   background-position: 50% 50%;
   border-radius: 4px;
-  border: 3px solid #82B3D3;
+  border: 3px solid #82b3d3;
   outline: none;
 }
 
@@ -946,7 +949,7 @@ body {
   margin: 0; 
 }
 
-.counter input[type='number'] {
+.counter input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -974,7 +977,7 @@ body {
 }
 
 .tooltip-toggle {
-  background: url(../images/icons/tooltip.svg) no-repeat;
+  background: url("../images/icons/tooltip.svg") no-repeat;
   border:none;
   width: 26px;
   height: 26px;
@@ -1010,7 +1013,7 @@ body {
   height: 9px;
   top: -9px;
   left: 119px;
-  background-image: url(../images/icons/triangle.svg);
+  background-image: url("../images/icons/triangle.svg");
   background-repeat: no-repeat;
 }
 
@@ -1036,7 +1039,7 @@ body {
 
 .main-inner-filter {
   background-color: #756157c2;
-  background-image: url(../images/inner-filter.jpg);
+  background-image: url("../images/inner-filter.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
@@ -1084,7 +1087,7 @@ body {
 }
 
 .breadcrumbs-item:nth-child(1) {
-  background-image: url(../images/icons/hous-icon.svg);
+  background-image: url("../images/icons/hous-icon.svg");
   background-repeat: no-repeat;
   background-size: 13px 15px;
   background-position:  0% 50%;
@@ -1093,7 +1096,7 @@ body {
 .breadcrumbs-item::after {
   content: "";
   position: absolute;
-  background-image: url(../images/icons/right-arrow.svg);
+  background-image: url("../images/icons/right-arrow.svg");
   background-repeat: no-repeat;
   width: 8px;
   height: 11px;
@@ -1183,7 +1186,7 @@ body {
 .control-input[type="checkbox"]:checked + .control-mark::after {
   content: "";
   position: absolute;
-  background: url(../images/icons/checkbox.svg) no-repeat;
+  background: url("../images/icons/checkbox.svg") no-repeat;
   width: 20px;
   height: 20px;
 }
@@ -1191,7 +1194,7 @@ body {
 .control-input[type="radio"]:checked + .control-radio::after {
   content: "";
   position: absolute;
-  background: url(../images/icons/point.svg) no-repeat;
+  background: url("../images/icons/point.svg") no-repeat;
   width: 20px;
   height: 20px;
 }
@@ -1278,7 +1281,7 @@ body {
   margin: 0; 
 }
 
-.range-wrapper-inputs input[type='number'] {
+.range-wrapper-inputs input[type="number"] {
   -moz-appearance: textfield;
 }
 
@@ -1389,7 +1392,7 @@ body {
      -moz-appearance: none;
           appearance: none;
   font-family: inherit;
-  background-image: url(../images/icons/bottom-arrow.svg);
+  background-image: url("../images/icons/bottom-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
   background-color: inherit;
@@ -1445,21 +1448,21 @@ body {
 }
 
 .view-cards {
-  background-image: url(../images/icons/view-cards.svg);
+  background-image: url("../images/icons/view-cards.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 14px;
 }
 
 .view-big {
-  background-image: url(../images/icons/view-big.svg);
+  background-image: url("../images/icons/view-big.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 14px;
 }
 
 .view-list {
-  background-image: url(../images/icons/view-list.svg);
+  background-image: url("../images/icons/view-list.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 14px;
@@ -1552,7 +1555,7 @@ body {
 }
 
 .rating-star {
-  background-image: url(../images/icons/star.svg);
+  background-image: url("../images/icons/star.svg");
   background-size: 18px 17px;
   background-repeat: space;
   background-position: top left;
