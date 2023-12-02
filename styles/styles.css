@@ -94,6 +94,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   min-width: 81px;
+  max-width: 500px;
 }
 
 .navigation-link {
@@ -527,7 +528,7 @@ body {
   background-color: #576771;
   background-image: url(../images/newsletter.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   text-align: center;
   padding-top: 96px;
   padding-bottom: 104px;
@@ -590,7 +591,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px 70px 30px 70px;
-  height: 50px;
+  min-height: 50px;
 }
 
 .social-list {
@@ -944,11 +945,8 @@ body {
   margin: 0; 
 }
 
-.field::-moz-outer-spin-button,
-.field::-moz-inner-spin-button {
-  -moz-appearance: none;
-          appearance: none;
-  margin: 0; 
+.counter input[type='number'] {
+  -moz-appearance: textfield;
 }
 
 .counter button:disabled {
@@ -1039,7 +1037,7 @@ body {
   background-color: #756157c2;
   background-image: url(../images/inner-filter.jpg);
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   color: #ffffff;
   padding: 35px 70px 70px;
 }
@@ -1279,7 +1277,7 @@ body {
   margin: 0; 
 }
 
-input[type='number'] {
+.range-wrapper-inputs input[type='number'] {
   -moz-appearance: textfield;
 }
 
@@ -1352,6 +1350,7 @@ input[type='number'] {
   min-height: 49px;
   margin-bottom: 40px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .number-search {
@@ -1362,6 +1361,7 @@ input[type='number'] {
   margin-left: 0;
   flex-grow: 1;
   padding-top: 7px;
+  max-width: 340px;
 }
 
 .view-composition {
@@ -1379,6 +1379,7 @@ input[type='number'] {
   line-height: 21px;
   width: 295px;
   max-height: 49px;
+  margin-left: auto;
   padding: 12px 20px;
   padding-right: 40px;
   border-radius: 4px;
@@ -1584,7 +1585,7 @@ input[type='number'] {
 
 .pagination-item {
   margin-right: 8px;
-  width: 60px;
+  min-width: 60px;
   height: 60px;
 }
 
@@ -1604,7 +1605,7 @@ input[type='number'] {
   background-color: #82b3d3;
   text-decoration: none;
   color: #ffffff;
-  width: 60px;
+  min-width: 60px;
   height: 60px;
   display: block;
   box-sizing: border-box;
@@ -1613,7 +1614,7 @@ input[type='number'] {
   font-weight: 700; 
   border-radius: 4px;
   text-align: center;
-  padding: 11.364px 0px 12.636px 0px;
+  padding: 12px 18px;
 }
 
 .pagination-current {
