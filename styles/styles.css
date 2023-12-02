@@ -524,7 +524,7 @@ body {
 
 .newsletter {
   color: #ffffff;
-  background-color: #82B3D3;
+  background-color: #576771;
   background-image: url(../images/newsletter.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
@@ -944,6 +944,13 @@ body {
   margin: 0; 
 }
 
+.field::-moz-outer-spin-button,
+.field::-moz-inner-spin-button {
+  -moz-appearance: none;
+          appearance: none;
+  margin: 0; 
+}
+
 .counter button:disabled {
   background-color: #83b3d3;
   opacity: 0.6;
@@ -1272,6 +1279,10 @@ body {
   margin: 0; 
 }
 
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
 .range-scale {
   position: relative;
   height: 4px;
@@ -1379,6 +1390,7 @@ body {
   background-image: url(../images/icons/bottom-arrow.svg);
   background-repeat: no-repeat;
   background-position: right 20px center;
+  background-color: inherit;
 }
 
 .catalog-control:hover {
