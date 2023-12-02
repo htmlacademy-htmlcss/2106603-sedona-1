@@ -94,6 +94,7 @@ body {
   flex-wrap: wrap;
   align-items: center;
   min-width: 81px;
+  max-width: 500px;
 }
 
 .navigation-link {
@@ -193,6 +194,7 @@ body {
   height: 36px;
   box-sizing: border-box;
 }
+
 /*коричневые*/
 .button-brown {
   background-color: #756157;
@@ -207,6 +209,7 @@ body {
 .button-blue {
   background-color: #82b3d3;
 }
+
 /*зеленые кнопки*/
 .button-green {
   background-color: #7db54f;
@@ -303,7 +306,7 @@ body {
 .hero-img::after {
   position: absolute;
   content: "";
-  background: url(../images/white-decor.svg) no-repeat;
+  background: url("../images/white-decor.svg") no-repeat;
   width: 100%;
   left: 0;
   bottom: 0;
@@ -315,6 +318,7 @@ body {
   width: 1200px;
   padding: 69px 0;
 }
+
 .hero-slogan,
 .slogan {
   font-size: 30px;
@@ -329,11 +333,13 @@ body {
   width: 630px;
   margin-bottom: 25px;
 }
+
 .slogan-desc {
   font-size: 22px;
   line-height: 26px;
   margin: 0;
 }
+
 /*advantages*/
 
 .advantages {
@@ -411,6 +417,10 @@ body {
   margin-top: 30px;
 }
 
+.advantages-description-list .advantages-description {
+  color: #333333;
+}
+
 .advantages-list .advantages-title::after {
   background-color: rgba(255, 255, 255, 0.30);
 } 
@@ -427,10 +437,12 @@ body {
 }
 
 /*services*/
+
 .services {
   background-color: #ffffff;
   text-align: center;
 }
+
 .slogan {
   display: block;
   margin: 0 auto;
@@ -497,6 +509,7 @@ body {
 }
 
 /* Поиск гостиницы и подписка на новости */
+
 .search-hotel {
   background-color: #ffffff;
   padding-top: 97px;
@@ -524,10 +537,10 @@ body {
 
 .newsletter {
   color: #ffffff;
-  background-color: #82B3D3;
-  background-image: url(../images/newsletter.jpg);
+  background-color: #576771;
+  background-image: url("../images/newsletter.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   text-align: center;
   padding-top: 96px;
   padding-bottom: 104px;
@@ -557,7 +570,7 @@ body {
 }
 
 .newsletter-form input {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
@@ -590,7 +603,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 40px 70px 30px 70px;
-  height: 50px;
+  min-height: 50px;
 }
 
 .social-list {
@@ -611,7 +624,7 @@ body {
 .social-item a {
   display: block;
   padding: 10px;
-  color: #83B3D3;
+  color: #83b3d3;
 }
 
 .social-item svg {
@@ -619,15 +632,15 @@ body {
 }
 
 .social-item a:hover {
-  color: #68A2CA;
+  color: #68a2ca;
 }
 
 .social-item a:focus {
-  color: #68A2CA;
+  color: #68a2ca;
 }
 
 .social-item a:active {
-  color: #68A2CA;
+  color: #68a2ca;
   opacity: 0.3;
 }
 
@@ -638,7 +651,6 @@ body {
   text-decoration: none;
   width: 340px;
   padding: 5px 194px 5px 195px;
-
 }
 
 .footer-phone:hover {
@@ -676,6 +688,7 @@ body {
 }
 
 /* Окно для поиска гостиницы по датам */
+
 .modal-search-form {
   position: fixed;
   top: 0;
@@ -731,7 +744,7 @@ body {
   left: 614px;
   top: 65px;
   background-color: #f2f2f2;
-  background-image: url(../images/icons/close-icon.svg);
+  background-image: url("../images/icons/close-icon.svg");
   background-repeat: no-repeat;
   background-size: 14px 14px;
   background-position:  50% 50%;
@@ -773,6 +786,7 @@ body {
 .hotel-form p {
   margin: 0;
 }
+
 .hotel-form input {
   background-color: #f2f2f2;
 }
@@ -887,8 +901,8 @@ body {
   width: 11px;
   height: 20px;
   border-radius: 0;
-
 }
+
 .minus, .plus {
   width: 40px;
   height: 48px;
@@ -898,22 +912,22 @@ body {
 }
 
 .minus {
-  background: url(../images/icons/minus-icon.svg) no-repeat;
+  background: url("../images/icons/minus-icon.svg") no-repeat;
   background-position: 50% 50%;
 }
 
 .plus {
-  background: url(../images/icons/plus-icon.svg) no-repeat;
+  background: url("../images/icons/plus-icon.svg") no-repeat;
   background-position: 50% 50%;
 }
 
 .minus:hover {
-  background: url(../images/icons/minus-black.svg) no-repeat;
+  background: url("../images/icons/minus-black.svg") no-repeat;
   background-position: 50% 50%;
 }
 
 .plus:hover {
-  background: url(../images/icons/plus-black.svg) no-repeat;
+  background: url("../images/icons/plus-black.svg") no-repeat;
   background-position: 50% 50%;
 }
 
@@ -922,18 +936,18 @@ body {
 }
 
 .minus:focus-visible {
-  background: url(../images/icons/minus-black.svg) no-repeat;
+  background: url("../images/icons/minus-black.svg") no-repeat;
   background-position: 50% 50%;
   border-radius: 4px;
-  border: 3px solid #82B3D3;
+  border: 3px solid #82b3d3;
   outline: none;
 }
 
 .plus:focus-visible  {
-  background: url(../images/icons/plus-black.svg) no-repeat;
+  background: url("../images/icons/plus-black.svg") no-repeat;
   background-position: 50% 50%;
   border-radius: 4px;
-  border: 3px solid #82B3D3;
+  border: 3px solid #82b3d3;
   outline: none;
 }
 
@@ -942,6 +956,10 @@ body {
   -webkit-appearance: none;
           appearance: none;
   margin: 0; 
+}
+
+.counter input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .counter button:disabled {
@@ -968,7 +986,7 @@ body {
 }
 
 .tooltip-toggle {
-  background: url(../images/icons/tooltip.svg) no-repeat;
+  background: url("../images/icons/tooltip.svg") no-repeat;
   border:none;
   width: 26px;
   height: 26px;
@@ -1004,7 +1022,7 @@ body {
   height: 9px;
   top: -9px;
   left: 119px;
-  background-image: url(../images/icons/triangle.svg);
+  background-image: url("../images/icons/triangle.svg");
   background-repeat: no-repeat;
 }
 
@@ -1030,9 +1048,9 @@ body {
 
 .main-inner-filter {
   background-color: #756157c2;
-  background-image: url(../images/inner-filter.jpg);
+  background-image: url("../images/inner-filter.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   color: #ffffff;
   padding: 35px 70px 70px;
 }
@@ -1078,7 +1096,7 @@ body {
 }
 
 .breadcrumbs-item:nth-child(1) {
-  background-image: url(../images/icons/hous-icon.svg);
+  background-image: url("../images/icons/hous-icon.svg");
   background-repeat: no-repeat;
   background-size: 13px 15px;
   background-position:  0% 50%;
@@ -1087,7 +1105,7 @@ body {
 .breadcrumbs-item::after {
   content: "";
   position: absolute;
-  background-image: url(../images/icons/right-arrow.svg);
+  background-image: url("../images/icons/right-arrow.svg");
   background-repeat: no-repeat;
   width: 8px;
   height: 11px;
@@ -1177,7 +1195,7 @@ body {
 .control-input[type="checkbox"]:checked + .control-mark::after {
   content: "";
   position: absolute;
-  background: url(../images/icons/checkbox.svg) no-repeat;
+  background: url("../images/icons/checkbox.svg") no-repeat;
   width: 20px;
   height: 20px;
 }
@@ -1185,7 +1203,7 @@ body {
 .control-input[type="radio"]:checked + .control-radio::after {
   content: "";
   position: absolute;
-  background: url(../images/icons/point.svg) no-repeat;
+  background: url("../images/icons/point.svg") no-repeat;
   width: 20px;
   height: 20px;
 }
@@ -1241,6 +1259,7 @@ body {
   outline: none;
   padding: 0;
 }
+
 .range-label:first-child .range-input {
   width: 86px;
 }
@@ -1270,6 +1289,10 @@ body {
   -webkit-appearance: none;
           appearance: none;
   margin: 0; 
+}
+
+.range-wrapper-inputs input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 .range-scale {
@@ -1341,6 +1364,7 @@ body {
   min-height: 49px;
   margin-bottom: 40px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .number-search {
@@ -1351,6 +1375,7 @@ body {
   margin-left: 0;
   flex-grow: 1;
   padding-top: 7px;
+  max-width: 340px;
 }
 
 .view-composition {
@@ -1368,6 +1393,7 @@ body {
   line-height: 21px;
   width: 295px;
   max-height: 49px;
+  margin-left: auto;
   padding: 12px 20px;
   padding-right: 40px;
   border-radius: 4px;
@@ -1376,9 +1402,10 @@ body {
      -moz-appearance: none;
           appearance: none;
   font-family: inherit;
-  background-image: url(../images/icons/bottom-arrow.svg);
+  background-image: url("../images/icons/bottom-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+  background-color: inherit;
 }
 
 .catalog-control:hover {
@@ -1424,28 +1451,27 @@ body {
   border: 2px solid #000000;
 }
 
-
 .button-composition.active {
   color: #ffffff;
   border: 2px solid #000000;
 }
 
 .view-cards {
-  background-image: url(../images/icons/view-cards.svg);
+  background-image: url("../images/icons/view-cards.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 14px;
 }
 
 .view-big {
-  background-image: url(../images/icons/view-big.svg);
+  background-image: url("../images/icons/view-big.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 14px;
 }
 
 .view-list {
-  background-image: url(../images/icons/view-list.svg);
+  background-image: url("../images/icons/view-list.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 16px 14px;
@@ -1476,7 +1502,7 @@ body {
   width: 298px;
   padding: 20px;
   border-radius: 4px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
 }
 
 .product-card > *:nth-child(1) {
@@ -1518,7 +1544,6 @@ body {
   line-height: 28px;
   color: #000000;
   margin: 0;
-
 }
 
 .product-card-link {
@@ -1533,12 +1558,12 @@ body {
 
 .rating {
   background-color: #f2f2f2;
-  color: #000000;
+  color: #333333;
   font-weight: 400;
 }
 
 .rating-star {
-  background-image: url(../images/icons/star.svg);
+  background-image: url("../images/icons/star.svg");
   background-size: 18px 17px;
   background-repeat: space;
   background-position: top left;
@@ -1546,6 +1571,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px; 
 }
+
 .star-four {
   width: 89px;
 }
@@ -1572,27 +1598,27 @@ body {
 
 .pagination-item {
   margin-right: 8px;
-  width: 60px;
+  min-width: 60px;
   height: 60px;
 }
 
 .pagination-item:last-child {
   margin-right: 0;
 } 
+
 .pagination-ellipsis {
   width: 60px;
   height: 40px;
   display: block;
   text-align: center;
   padding-top: 20px;
-
 }
 
 .pagination-link {
   background-color: #82b3d3;
   text-decoration: none;
   color: #ffffff;
-  width: 60px;
+  min-width: 60px;
   height: 60px;
   display: block;
   box-sizing: border-box;
@@ -1601,7 +1627,7 @@ body {
   font-weight: 700; 
   border-radius: 4px;
   text-align: center;
-  padding: 11.364px 0px 12.636px 0px;
+  padding: 12px 18px;
 }
 
 .pagination-current {
@@ -1621,9 +1647,9 @@ body {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
+
 .main-inner .newsletter {
   background-color: #ffffff;
   background-image: none;
   color: #000000;
 }
-
