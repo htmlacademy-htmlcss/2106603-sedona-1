@@ -168,7 +168,7 @@
             <div class="hotel-form-date">
               <label class="hotel-form-label">
                 <span>Дата Заезда:</span>
-                <input class="field" type="text" name="check-in-date" placeholder="Укажите дату" value="27 апреля 2020">
+                <input class="field" type="text" name="check-in-date" placeholder="Укажите дату" value="27 апреля 2020" required>
                 <svg class="calendar-button" xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none"><g fill="#000"><path d="M5.75 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z"/><path d="M15 2h-2V0h-1v2H4V0H3v2H1c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V3c0-.6-.5-1-1-1Zm0 12H1V7h14v7ZM1 6V3h2v2h1V3h8v2h1V3h2v3H1Z"/><path d="M8 10c.3 0 .5-.2.5-.5S8.3 9 8 9s-.5.2-.5.5.2.5.5.5ZM10.25 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM5.75 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM3.5 10c.3 0 .5-.2.5-.5S3.8 9 3.5 9s-.5.2-.5.5.2.5.5.5ZM3.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM8 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM10.25 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM12.5 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM12.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"/></g></svg>
               </label>
               <span class="comment comment-error">Мы не можем отправить вас в прошлое.</span>
@@ -176,7 +176,7 @@
             <div class="hotel-form-date">
               <label class="hotel-form-label">
                 <span>Дата Выезда:</span>
-                <input class="field" type="text" name="check-out-date" placeholder="Укажите дату" value="1 сентября 2023">
+                <input class="field" type="text" name="check-out-date" placeholder="Укажите дату" value="1 сентября 2023" required>
                 <svg class="calendar-button" xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none"><g fill="#000"><path d="M5.75 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5Z"/><path d="M15 2h-2V0h-1v2H4V0H3v2H1c-.6 0-1 .4-1 1v11c0 .5.4 1 1 1h14c.5 0 1-.5 1-1V3c0-.6-.5-1-1-1Zm0 12H1V7h14v7ZM1 6V3h2v2h1V3h8v2h1V3h2v3H1Z"/><path d="M8 10c.3 0 .5-.2.5-.5S8.3 9 8 9s-.5.2-.5.5.2.5.5.5ZM10.25 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM5.75 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM3.5 10c.3 0 .5-.2.5-.5S3.8 9 3.5 9s-.5.2-.5.5.2.5.5.5ZM3.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM8 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM10.25 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5ZM12.5 10c.3 0 .5-.2.5-.5s-.2-.5-.5-.5-.5.2-.5.5.2.5.5.5ZM12.5 11c-.3 0-.5.2-.5.5s.2.5.5.5.5-.2.5-.5-.2-.5-.5-.5Z"/></g></svg>
               </label>
               <span class="comment">На эти даты есть свободные номера. Пока есть.</span>
@@ -187,7 +187,7 @@
                 <button class="minus" type="button">
                   <span class="visually-hidden">Убавить.</span>
                 </button>
-                <input class="field" type="number" name="counter-adult" value="2" id="hotel-adult">
+                <input class="field" type="number" name="counter-adult" value="2" id="hotel-adult" required>
                 <button class="plus" type="button">
                   <span class="visually-hidden">Добавить.</span>
                 </button>
@@ -207,7 +207,7 @@
                 <button class="minus" type="button">
                   <span class="visually-hidden">Убавить.</span>
                 </button>
-                <input class="field" type="number" name="counter-children" value="2" id="hotel-children">
+                <input class="field" type="number" name="counter-children" value="2" id="hotel-children" required>
                 <button class="plus" type="button">
                   <span class="visually-hidden">Добавить.</span>
                 </button>
