@@ -194,6 +194,7 @@ body {
   height: 36px;
   box-sizing: border-box;
 }
+
 /*коричневые*/
 .button-brown {
   background-color: #756157;
@@ -208,6 +209,7 @@ body {
 .button-blue {
   background-color: #82b3d3;
 }
+
 /*зеленые кнопки*/
 .button-green {
   background-color: #7db54f;
@@ -316,6 +318,7 @@ body {
   width: 1200px;
   padding: 69px 0;
 }
+
 .hero-slogan,
 .slogan {
   font-size: 30px;
@@ -330,6 +333,7 @@ body {
   width: 630px;
   margin-bottom: 25px;
 }
+
 .slogan-desc {
   font-size: 22px;
   line-height: 26px;
@@ -438,6 +442,7 @@ body {
   background-color: #ffffff;
   text-align: center;
 }
+
 .slogan {
   display: block;
   margin: 0 auto;
@@ -646,7 +651,6 @@ body {
   text-decoration: none;
   width: 340px;
   padding: 5px 194px 5px 195px;
-
 }
 
 .footer-phone:hover {
@@ -684,6 +688,7 @@ body {
 }
 
 /* Окно для поиска гостиницы по датам */
+
 .modal-search-form {
   position: fixed;
   top: 0;
@@ -781,6 +786,7 @@ body {
 .hotel-form p {
   margin: 0;
 }
+
 .hotel-form input {
   background-color: #f2f2f2;
 }
@@ -895,8 +901,8 @@ body {
   width: 11px;
   height: 20px;
   border-radius: 0;
-
 }
+
 .minus, .plus {
   width: 40px;
   height: 48px;
@@ -1253,6 +1259,7 @@ body {
   outline: none;
   padding: 0;
 }
+
 .range-label:first-child .range-input {
   width: 86px;
 }
@@ -1444,7 +1451,6 @@ body {
   border: 2px solid #000000;
 }
 
-
 .button-composition.active {
   color: #ffffff;
   border: 2px solid #000000;
@@ -1496,7 +1502,7 @@ body {
   width: 298px;
   padding: 20px;
   border-radius: 4px;
-  border: 1px solid #E6E6E6;
+  border: 1px solid #e6e6e6;
 }
 
 .product-card > *:nth-child(1) {
@@ -1538,7 +1544,6 @@ body {
   line-height: 28px;
   color: #000000;
   margin: 0;
-
 }
 
 .product-card-link {
@@ -1566,6 +1571,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px; 
 }
+
 .star-four {
   width: 89px;
 }
@@ -1599,13 +1605,13 @@ body {
 .pagination-item:last-child {
   margin-right: 0;
 } 
+
 .pagination-ellipsis {
   width: 60px;
   height: 40px;
   display: block;
   text-align: center;
   padding-top: 20px;
-
 }
 
 .pagination-link {
@@ -1641,9 +1647,9 @@ body {
   background-color: #82b3d3;
   color: rgba(255, 255, 255, 0.3);
 }
+
 .main-inner .newsletter {
   background-color: #ffffff;
   background-image: none;
   color: #000000;
 }
-
